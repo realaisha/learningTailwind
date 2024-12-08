@@ -8,13 +8,14 @@ return (
     <div>
       <div className="bg-white grid lg:grid-cols-2 2xl:grid-cols-5">
         <div className="px-8 py-12 pt-0 max-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full xl:mr-0 2xl:col-span-2">
-          <div className="xl:max-w-xl"></div>
+          <div className="xl:max-w-xl">
           <img className="h-20 pt-0" src="img/logo.jpg" alt="workation logo" />
           <img
             className="rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden"
             src="img/beach.jpg"
             alt="woman on beach"
           />
+          </div>
           <h1 className="text-gray-900 mt-6 text-2xl font-bold sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">
             You can work from anywhere.
             <br className="hidden lg:inline" />

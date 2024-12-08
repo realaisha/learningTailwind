@@ -2,7 +2,8 @@
 module.exports = {
   content: [
     './index.html',                 // Include the main HTML file
-     './src/**/*.{js,jsx,ts,tsx}',   // Include all JSX and TSX files
+    './src/**/*.{js,jsx,ts,tsx}', // Include files in your `src` directory
+    ,   // Include all JSX and TSX files
   ],
   theme: {
     extend: {
